@@ -28,6 +28,11 @@ public class FeatureManager {
         registerFeature(new CrystalAura());
         registerFeature(new AutoArmor());
         
+        // Advanced Bot-Fighting Features
+        registerFeature(new BotPvP());
+        registerFeature(new AutoDodge());
+        registerFeature(new BotDetector());
+        
         // Movement Features
         registerFeature(new Flight());
         registerFeature(new Speed());
@@ -43,6 +48,11 @@ public class FeatureManager {
         registerFeature(new AutoBuild());
         registerFeature(new ChestESP());
         registerFeature(new XRay());
+        
+        // Advanced World Automation
+        registerFeature(new AutoBridge());
+        registerFeature(new AutoBedBreaker());
+        registerFeature(new FastPlace());
         
         // Visual Features (similar to Lunar, Badlion)
         registerFeature(new FullBright());
@@ -63,6 +73,7 @@ public class FeatureManager {
         registerFeature(new ChatFilter());
         registerFeature(new NameProtect());
         registerFeature(new AntiAFK());
+        registerFeature(new AutoCollector());
         
         Logger.info("Initialized " + features.size() + " features");
     }
