@@ -1,0 +1,48 @@
+{
+    "schemaVersion": 1,
+    "id": "hexclient",
+    "version": "${version}",
+    "name": "HexClient",
+    "description": "Advanced Minecraft client with superior features and UI",
+    "authors": [
+        "HexClient Team"
+    ],
+    "contact": {
+        "homepage": "https://hexclient.com",
+        "sources": "https://github.com/hexclient/hexclient"
+    },
+    "license": "MIT",
+    "icon": "assets/hexclient/icon.png",
+    "environment": "client",
+    "entrypoints": {
+        "client": [
+            "com.hexclient.core.HexClient"
+        ],
+        "modmenu": [
+            "com.hexclient.gui.ModMenuIntegration"
+        ]
+    },
+    "mixins": [
+        "hexclient.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.15.0",
+        "fabric-api": "*",
+        "minecraft": "~1.20.4",
+        "java": ">=21"
+    },
+    "suggests": {
+        "modmenu": "*",
+        "sodium": "*"
+    },
+    "custom": {
+        "hexclient:features": [
+            "advanced_ui",
+            "performance_boost",
+            "combat_enhancements",
+            "world_tools",
+            "automation",
+            "client_protection"
+        ]
+    }
+}

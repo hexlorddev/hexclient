@@ -1,0 +1,36 @@
+{
+  "key.hexclient.toggle_gui": "Toggle Main GUI",
+  "key.hexclient.toggle_clickgui": "Toggle Click GUI",
+  "key.hexclient.toggle_hud": "Toggle HUD",
+  
+  "category.hexclient.general": "HexClient",
+  
+  "hexclient.gui.title": "HexClient Configuration",
+  "hexclient.gui.combat": "Combat",
+  "hexclient.gui.movement": "Movement",
+  "hexclient.gui.visual": "Visual",
+  "hexclient.gui.world": "World",
+  "hexclient.gui.performance": "Performance",
+  "hexclient.gui.misc": "Miscellaneous",
+  
+  "hexclient.feature.killaura": "KillAura",
+  "hexclient.feature.killaura.desc": "Automatically attacks nearby entities",
+  
+  "hexclient.feature.flight": "Flight",
+  "hexclient.feature.flight.desc": "Allows creative-style flight",
+  
+  "hexclient.feature.esp": "ESP",
+  "hexclient.feature.esp.desc": "Highlights entities through walls",
+  
+  "hexclient.feature.fpsboost": "FPS Boost",
+  "hexclient.feature.fpsboost.desc": "Optimizations to improve FPS",
+  
+  "hexclient.message.enabled": "§a%s enabled",
+  "hexclient.message.disabled": "§c%s disabled",
+  "hexclient.message.welcome": "§6Welcome to HexClient v%s!",
+  
+  "hexclient.config.general": "General Settings",
+  "hexclient.config.combat": "Combat Settings", 
+  "hexclient.config.visual": "Visual Settings",
+  "hexclient.config.performance": "Performance Settings"
+}

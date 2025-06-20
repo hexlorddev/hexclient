@@ -1,0 +1,26 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "com.hexclient.mixins",
+    "compatibilityLevel": "JAVA_21",
+    "refmap": "hexclient.refmap.json",
+    "mixins": [],
+    "client": [
+        "GameRendererMixin",
+        "MinecraftClientMixin",
+        "ClientPlayerEntityMixin",
+        "InGameHudMixin",
+        "KeyboardMixin",
+        "MouseMixin",
+        "ClientConnectionMixin",
+        "WorldRendererMixin",
+        "CameraMixin",
+        "TitleScreenMixin",
+        "OptionsScreenMixin",
+        "ChatScreenMixin",
+        "InventoryScreenMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
